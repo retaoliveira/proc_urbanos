@@ -1,0 +1,96 @@
+---
+title: "PROCESSOS URBANOS"
+subtitle: "Desenvolvimento de competências para discussão de processos urbanos por meio de métodos espaciais quantitativos"
+author: "Profa. Renata Oliveira"
+institute: "Centro Federal de Educação Tecnológica de Minas Gerais"
+date: "2020/05/28 (updated: `r Sys.Date()`)"
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    css:  ["mytheme.css", "mytheme-fonts.css"]
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      titleSlideClass: [center, middle, inverse]
+      ratio: '16:9'
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+
+---
+```{r setup, include=FALSE, fig.align = "center"}
+options(htmltools.dir.version = FALSE)
+```
+class: center, middle
+
+# SEJAM BEM VINDOS!
+
+---
+class: inverse, center, middle
+
+# Vamos começar?
+
+---
+# Urbanização
+```{r , echo=FALSE, fig.cap="A caption", out.width = '99%', fig.align = 'center'}
+knitr::include_graphics('img/urbanizacao.png')
+```
+
+---
+# Revoluções Industriais
+Estamos imersos na 4a revolução industrial!
+```{r , echo=FALSE, fig.cap="Revoluções Industriais", out.width = '99%', fig.align = 'center'}
+knitr::include_graphics('img/4_rev_ind.png')
+```
+
+---
+# Novas relações econômicas
+
+.pull-left[
+```{r , echo=FALSE, out.width = '105%', fig.align = 'left'}
+knitr::include_graphics('img/relacoes_economicas.png')
+```
+]
+
+.pull-right[
+- Economia colaborativa e consumo colaborativo   
+- Redes de comunidades e individuos conectados em oposição a mercados centralizados   
+- Transformações estruturais
+]
+
+---
+# Objetivos de desenvolvimento sustentável
+```{r , echo=FALSE, out.width = '80%', fig.align = 'center'}
+knitr::include_graphics('img/ods.jpg')
+```
+
+---
+# Comunicação visual
+
+“The key to communicating visually is finding ubiquitous visual symbols that need no verbal explanation.” (Anna Vital)
+
+
+---
+# Representações de fenômenos e construções humanas
+
+.pull-left[
+```{r , echo=FALSE, fig.cap="Anaximandro de Mileto – IV a.C.", out.width = '105%', fig.align = 'center'}
+knitr::include_graphics('img/anaximandro.jpg')
+```
+]
+
+.pull-right[
+```{r , echo=FALSE,  fig.cap= "Claudio Ptolomeu – 150 d.C.", out.width = '105%', fig.align = 'center'}
+knitr::include_graphics('img/ptolomeu.jpg')
+```
+]
+---
+class: inverse, middle, center
+
+# Using xaringan
+
+---
